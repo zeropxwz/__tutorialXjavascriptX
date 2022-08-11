@@ -22,7 +22,8 @@ b = 2
 c = null
 
 // второй вариант
-var a: number, b: number, c: number
+var 
+    a: number, b: number, c: number
 
 // третий вариант
 var 
@@ -44,7 +45,8 @@ var b: number        = 2
 var c: number | null = null
 
 // второй вариант
-var a: number = 10, b: number = 2, c: number | null = null          
+var 
+    a: number = 10, b: number = 2, c: number | null = null          
 
 // третий вариант
 var 
@@ -74,41 +76,4 @@ var
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
