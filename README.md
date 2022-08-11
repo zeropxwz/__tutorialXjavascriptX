@@ -71,8 +71,8 @@ var
 
 Кроме того есть и другие различия:
 
-1. __var__ можно объявлять несколько раз, что может привести к случайному переназначению и багам:
-
+__1.__
+__var__ можно объявлять несколько раз, что может привести к случайному переназначению и багам:
 ```ts
 var x = 10
 
@@ -82,9 +82,7 @@ var x = 10
 
 var x = 2
 ```
-
 в то время, как __let__ в таком случае выбросит ошибку
-
 ```ts
 let x = 10
 
@@ -92,21 +90,17 @@ let x = 10
 // code pipe
 // code pipe
 
-let x = 2
-// SyntaxError: Identifier 'x' has already been declared
+let x = 2 // SyntaxError: Identifier 'x' has already been declared
 ```
-
-2. __var__ можно хостить:
-
+__2.__
+__var__ можно хостить:
 ```ts
 x = 2
 console.log(x) // выведет 2
 
 var x
 ```
-
 а __let__ нет:
-
 ```ts
 x = 2
 console.log(x) // ReferenceError: Cannot access 'x' before initialization
