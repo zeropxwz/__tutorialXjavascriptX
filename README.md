@@ -58,6 +58,7 @@ var
     c: number | null = null 
 ```
 
+### разница между __var__ и __let__
 
 
 
