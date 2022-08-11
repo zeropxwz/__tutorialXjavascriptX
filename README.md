@@ -129,21 +129,20 @@ const x: number = 10
 # Типы данных
 
 Всего в JavaScript 8 типов данных. 7 из которых являются примитивами:  
-
 - boolean
 - number
 - string
-- null
+- null (ссылается на object)
 - undefined
 - symbol
 - bigint
 
 и один структурный:  
-
 - object
 
+В TypeScript система типов несколько расширена и доработа
 
-
+![](types.jpg)
 
 
 
