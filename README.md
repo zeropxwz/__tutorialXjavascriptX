@@ -1,19 +1,6 @@
-### Оглавление
-
-# Table of Contents
+# Оглавление
 - [Переменные](#Переменные)
-- [Example2](#example2)
-- [Third Example](#third-example)
-- [Fourth Example](#fourth-examplehttpwwwfourthexamplecom)
-
-
-## Example
-## Example2
-## Third Example
-## [Fourth Example](http://www.fourthexample.com) 
-
-
-
+- [Типы данных](#Типы-данных)
 
 # Переменные
 
@@ -143,7 +130,7 @@ const x: number = 10
       x = 2 // Cannot assign to 'x' because it is a constant
 ``` 
 
-# Типы данных types
+# Типы данных
 
 Всего в JavaScript 8 типов данных.  
 
