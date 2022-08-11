@@ -16,14 +16,18 @@ var a: number
 var b: number
 var c: number | null
 
-a = 10
-b = 2
-c = null
+    a = 10
+    b = 2
+    c = null
 
 // второй вариант
 var 
     a: number, b: number, c: number
-
+   
+    a = 10
+    b = 2
+    c = null
+  
 // третий вариант
 var 
     a: number,
