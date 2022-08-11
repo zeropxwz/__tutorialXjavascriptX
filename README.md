@@ -107,8 +107,9 @@ console.log(x) // ReferenceError: Cannot access 'x' before initialization
 
 let x
 ```
+### __const__
 
-
+const во всем ведет себя подобно __let__ за исключением одного - присвоенное значение является константным и его нельзя переназначить.
 
 
 
