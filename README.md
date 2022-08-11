@@ -38,10 +38,15 @@ var
 Но можно присвоить значение и сразу при объявлении:
 
 ```ts
+// первый вариант
 var a: number        = 10
 var b: number        = 2
 var c: number | null = null
 
+// второй вариант
+var a: number = 10, b: number = 2, c: number | null = null          
+
+// третий вариант
 var 
     a: number        = 10
     b: number        = 2
