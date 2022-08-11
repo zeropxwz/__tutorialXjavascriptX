@@ -126,6 +126,26 @@ const x: number = 10
       x = 2 // Cannot assign to 'x' because it is a constant
 ``` 
 
+# Типы данных
+
+Всего в JavaScript 7 примитивных типов:
+
+- boolean
+- number
+- string
+- undefined
+- null
+- bigint
+- sumbol
+
+и один структурный:
+
+- object
+
+TypeScript имеет более расширеную систему типов
+
+
+
 ## Типы данных и ссылочная модель 
 
 Примитивные типы данных копируют только значение, но не ссылку:
