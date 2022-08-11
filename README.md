@@ -126,7 +126,6 @@ const x: number = 10
       x = 2 // Cannot assign to 'x' because it is a constant
 ``` 
 
-> test
 
 
 
