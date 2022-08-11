@@ -1,7 +1,7 @@
 ### Оглавление
 
 # Table of Contents
-- [Example](#example)
+- [Переменные](#Переменные)
 - [Example2](#example2)
 - [Third Example](#third-example)
 - [Fourth Example](#fourth-examplehttpwwwfourthexamplecom)
