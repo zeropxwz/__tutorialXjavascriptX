@@ -1,10 +1,11 @@
 ### Оглавление
 
-- [Переменные] (# vars)
-- [Типы данных] (# types)
+[Github Title 2 Test] (# github-title2-test)
 
 
-# Переменные vars
+
+
+# Github Title 2 Test
 
 Для объявления переменных и констант используются ключевые слова __var__, __let__ и __const__
 
