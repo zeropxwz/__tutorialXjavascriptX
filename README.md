@@ -126,6 +126,26 @@ const x: number = 10
       x = 2 // Cannot assign to 'x' because it is a constant
 ``` 
 
+# Типы данных
+
+Всего в JavaScript 8 типов данных. 7 из которых являются примитивами:  
+
+- boolean
+- number
+- string
+- null
+- undefined
+- symbol
+- bigint
+
+и один структурный:  
+
+- object
+
+
+
+
+
 
 
 
