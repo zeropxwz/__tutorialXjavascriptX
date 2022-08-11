@@ -126,25 +126,45 @@ const x: number = 10
       x = 2 // Cannot assign to 'x' because it is a constant
 ``` 
 
-# Типы данных
+## Типы данных и ссылочная модель 
 
-Всего в JavaScript 8 типов данных. 7 из которых являются примитивами:  
-- boolean
-- number
-- string
-- null (ссылается на object)
-- undefined
-- symbol
-- bigint
+Примитивные типы данных копируют только значение, но не ссылку:
 
-и один структурный:  
-- object
+```ts
+var
+    a: number = 10,
+    b: number = a  // присвоено значение 10
 
-В TypeScript система типов несколько расширена и доработа
+    console.log(a) // 10
+    console.log(b) // 10
+    
+    a = 0
 
-![](types.jpg)
+    console.log(a) // значение переменной 'a' изменилось на 0
+    console.log(b) // но значение переменной b не изменилось т.к. оно не является ссылкой на 'a' и независимо от него
+```
+
+Ссылочным типом являюется только объект:
+
+```ts
+const user = {
+    name:   'Petr,
+    sename: 'Ivanov',
+    age:     22
+}
+    
+const admin = user // присвоена ссылка на объект 'user'
+
+console.log(user.age)  // 22
+console.log(admin.age) // 22
 
 
+user.age = 42
+    
+console.log(user.age)  // 42
+console.log(admin.age) // значение также изменилось на 42 т.к. объект 'admin' является ссылкой на объект 'user' и зависит от него
+
+```
 
 
 
